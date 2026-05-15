@@ -26,20 +26,20 @@ export function About() {
       <article className="about-letter reveal" ref={ref}>
         <div className="from">
           <span>From the desk of A. Metgher</span>
-          <span>{today} — Bucharest</span>
+          <span>{today} — Charlotte, NC</span>
         </div>
         <h3>Dear visitor,</h3>
         <p>
-          Thank you for stopping by. I'm a full-stack developer, which is to say I'll happily write a database migration in the morning, a CSS animation in the afternoon, and then argue about typography until the evening.
+          Thank you for stopping by. I'm a front-end developer based in Charlotte, currently studying computer science at UNC Charlotte and writing React for a living.
         </p>
         <p>
-          I work best on small teams where the difference between <em>fine</em> and <em>great</em> still matters. Lately that's been Lumen Labs, building tools for other developers — but I started out making restaurant websites and have not entirely outgrown the joy of a clean menu page.
+          These last three years I've been building UI for an enterprise financial-planning platform used by advisors at one of <em>Germany's largest</em> financial firms — the sort of software where a missing validation can quietly mess up someone's pension.
         </p>
         <p>
           If we get to work together, expect <em>thoroughness</em>, a lot of small notes, and a refusal to ship anything I wouldn't be happy to maintain three years from now.
         </p>
         <div className="signoff">Warmly, Andrei</div>
-        <div className="ps">P.S. — I'm in UTC+2, reply within 48 hours, and very rarely read DMs after 9pm.</div>
+        <div className="ps">P.S. — I'm in EST, reply within 48 hours, and very rarely read DMs after 9pm.</div>
       </article>
     </section>
   );

@@ -121,7 +121,7 @@ export function Contact() {
           <div className="stamp-area">
             <div className="stamp" aria-hidden="true">
               <div className="big">{profile.initials.primary}{profile.initials.secondary}</div>
-              <div className="lab">Metgher · RO</div>
+              <div className="lab">Metgher · NC</div>
             </div>
           </div>
           <div className="write-line">To: Andrei,</div>
@@ -135,8 +135,12 @@ export function Contact() {
               </span>
             </div>
             <div className="info-row">
-              <span className="k">Calendar</span>
-              <span className="v">{profile.contact.calendar}</span>
+              <span className="k">LinkedIn</span>
+              <span className="v">
+                <a href={`https://www.${profile.contact.linkedin}`} target="_blank" rel="noreferrer noopener">
+                  {profile.contact.linkedin}
+                </a>
+              </span>
             </div>
             <div className="info-row">
               <span className="k">Reply in</span>

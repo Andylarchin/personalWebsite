@@ -38,10 +38,10 @@ export function Projects() {
       <SectionHeader
         number="02"
         label="Field notes"
-        hint="scroll for more ↓"
+        hint="more soon ↓"
         title={
           <>
-            Five things
+            A couple of things
             <br />
             I made <em>recently</em>.
           </>

@@ -49,16 +49,16 @@ export function Hero() {
       <div className="reveal" ref={textReveal}>
         <span className="pre">✦ Hello, I'm —</span>
         <h1>
-          A full-stack
+          A front-end
           <br />
           developer who
           <br />
-          likes building <em>quiet</em>
+          builds software
           <br />
-          software <span className="scribble">(mostly)</span>.
+          that <em>holds up</em>.
         </h1>
         <p className="lede">
-          I'm Andrei, and I've spent the last eight years writing code for the web. I make things that work the way you'd hope they would, and I keep <em>good notes</em>.
+          I'm Andrei. I write React for an enterprise financial-planning platform by day, and study computer science at <em>UNC Charlotte</em> the rest of the week.
         </p>
         <div className="meta">
           {profile.meta.map((m) => (

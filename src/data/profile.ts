@@ -7,7 +7,7 @@ export type Profile = {
   meta: { label: string; value: string }[];
   contact: {
     email: string;
-    calendar: string;
+    linkedin: string;
     replyIn: string;
     timezone: string;
   };
@@ -19,27 +19,25 @@ export type Profile = {
 export const profile: Profile = {
   name: 'Andrei Metgher',
   initials: { primary: 'A', secondary: 'm' },
-  role: 'Full-stack',
-  established: 'est. 2017',
-  status: 'Open for Q3 work',
+  role: 'Front-end',
+  established: 'est. 2023',
+  status: 'Open to summer 2026 roles',
   meta: [
-    { label: 'Currently', value: 'Lumen Labs, Berlin' },
-    { label: 'Based', value: 'Bucharest · Remote' },
-    { label: 'Since', value: '2017, give or take' },
+    { label: 'Studying', value: 'CS @ UNC Charlotte' },
+    { label: 'Based', value: 'Charlotte, NC · Remote' },
+    { label: 'Since', value: '2023, give or take' },
   ],
   contact: {
-    email: 'andrei@example.com',
-    calendar: 'cal.com/andrei',
+    email: 'andreimetgher@gmail.com',
+    linkedin: 'linkedin.com/in/andymetgher',
     replyIn: '< 48 hours',
-    timezone: 'UTC+2 · Bucharest',
+    timezone: 'EST · Charlotte',
   },
   socials: [
-    { label: 'GitHub', href: 'https://github.com/' },
-    { label: 'LinkedIn', href: 'https://linkedin.com/' },
-    { label: 'Twitter / X', href: 'https://x.com/' },
-    { label: 'Read.cv', href: 'https://read.cv/' },
-    { label: 'andrei@example.com', href: 'mailto:andrei@example.com' },
+    { label: 'GitHub', href: 'https://github.com/andylarchin' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/andymetgher' },
+    { label: 'andreimetgher@gmail.com', href: 'mailto:andreimetgher@gmail.com' },
   ],
-  base: 'Bucharest',
-  since: '2017',
+  base: 'Charlotte',
+  since: '2023',
 };
